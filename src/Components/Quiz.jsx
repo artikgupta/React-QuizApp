@@ -12,7 +12,7 @@ class Quiz extends React.Component {
 
   componentDidUpdate = (prevProps, prevState) => {
     console.log(prevState, this.state);
-    if (prevState.currentQuestionIndex != this.state.currentQuestionIndex) {
+    if (prevState.currentQuestionIndex !== this.state.currentQuestionIndex) {
       this.setState({
         options: this.shuffledOptions(),
       });
