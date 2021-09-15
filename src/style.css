@@ -177,9 +177,9 @@ table {
   border: 3px solid rgba(49, 245, 10, 0.2);
 }
 
-.active_options {
-  border: 1px solid green;
-  margin: 1rem 0;
+.active_options.options {
+  border: 2px solid green;
+  background-color: rgba(49, 245, 10, 0.2);
 }
 
 .container_two {
@@ -195,7 +195,10 @@ table {
 }
 
 .options {
-  margin: 3rem 0;
+  margin: 1.7rem 0;
+  border: 2px solid rgb(156, 155, 155);
+  padding: 1rem;
+  font-weight: bold;
 }
 
 .next_btn {
@@ -204,18 +207,25 @@ table {
   border: none;
   font-size: 1.2rem;
   color: white;
+  font-weight: bold;
 }
 
 .wrong_answer {
   background-color: rgb(226, 148, 148);
   font-size: 1.2rem;
   color: black;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 0.3rem;
 }
 
 .correct_answer {
   background-color: rgb(143, 223, 118);
   font-size: 1.2rem;
   color: black;
+  padding: 1rem 0.3rem;
+  margin-bottom: 1rem;
 }
 
 .flex {
@@ -226,4 +236,17 @@ table {
 
 .difficulty {
   font-weight: bold;
+}
+
+.result {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin: 2rem 0;
+}
+
+.res_ques {
+  font-weight: bold;
+  margin: 1rem 0;
+  font-size: 1.2rem;
 }

@@ -22,7 +22,7 @@ class App extends Component {
 
   fetchReposOnTheBasisOfDifficulty = (userSelectedCategory, difficulties) => {
     fetch(
-      `https://opentdb.com/api.php?amount=2&category=${userSelectedCategory}&difficulty=${difficulties}`
+      `https://opentdb.com/api.php?amount=10&category=${userSelectedCategory}&difficulty=${difficulties}`
     )
       .then((res) => res.json())
       .then((data) =>

@@ -69,7 +69,7 @@ class Quiz extends React.Component {
             <div
               className={
                 this.state.userSelectedAnswer === val
-                  ? "active_options"
+                  ? "active_options options"
                   : "options"
               }
               onClick={() => {
